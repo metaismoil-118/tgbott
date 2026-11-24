@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche — Driven by Dreams</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation Bar -->
+    <header class="header" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">PORSCHE</a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#models" class="nav-link">Models</a>
+                <a href="#experience" class="nav-link">911 Experience</a>
+                <a href="#performance" class="nav-link">Performance</a>
+                <a href="#electric" class="nav-link">Electric</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#technology" class="nav-link">Technology</a>
+                <a href="#about" class="nav-link">Heritage</a>
+                <a href="#contact" class="nav-cta-mobile">Inquire Now</a>
+            </nav>
+            <a href="#contact" class="btn-primary desktop-cta">Inquire</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. CINEMATIC HERO -->
+        <section class="hero" id="hero">
+            <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=1920&auto=format&fit=crop');"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-subtitle">NEW 911 GT3 RS</span>
+                <h1 class="hero-title">DRIVEN BY <span class="highlight">DREAMS</span></h1>
+                <p class="hero-desc">Born on the track. Built for the road. Experience uncompromised engineering and motorsport DNA.</p>
+                <div class="hero-actions">
+                    <a href="#models" class="btn-primary">Explore Models</a>
+                    <a href="#contact" class="btn-outline">Configure Yours</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to Discover</span>
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <!-- 2. INTRODUCTION -->
+        <section class="intro section-padding" id="intro">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="intro-text-col fade-in">
+                        <span class="section-tag">THE PORSCHE PHILOSOPHY</span>
+                        <h2 class="section-title">THERE IS NO SUBSTITUTE FOR PERFECTION.</h2>
+                        <p class="intro-lead">Every curve, every sound, and every component serves a singular purpose: absolute connection between machine and driver.</p>
+                        <p class="intro-body">For over 75 years, we have pushed the boundaries of automotive performance. From air-cooled legends to high-voltage electric hypercars, our commitment to lightweight construction, aerodynamics, and timeless design remains unwavering.</p>
+                    </div>
+                    <div class="intro-image-col fade-in">
+                        <div class="image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1000&auto=format&fit=crop" alt="Classic Porsche silhouette" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. MODEL COLLECTION -->
+        <section class="models section-padding" id="models">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <span class="section-tag">LINEUP</span>
+                    <h2 class="section-title">THE MODEL COLLECTION</h2>
+                    <p class="section-desc">Find your expression of sports car performance.</p>
+                </div>
+                <div class="models-grid">
+                    <!-- Model Card 1 -->
+                    <div class="model-card fade-in">
+                        <div class="model-img">
+                            <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=800&auto=format&fit=crop" alt="911 Carrera" loading="lazy">
+                        </div>
+                        <div class="model-content">
+                            <h3>911 Carrera</h3>
+                            <p class="model-specs">From $114,400 | Up to 443 hp</p>
+                            <a href="#contact" class="btn-text">Configure &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Model Card 2 -->
+                    <div class="model-card fade-in">
+                        <div class="model-img">
+                            <img src="https://images.unsplash.com/photo-1541348263662-e0626628d0cf?q=80&w=800&auto=format&fit=crop" alt="911 GT3" loading="lazy">
+                        </div>
+                        <div class="model-content">
+                            <h3>911 GT3</h3>
+                            <p class="model-specs">From $182,900 | 502 hp NA Flat-6</p>
+                            <a href="#contact" class="btn-text">Configure &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Model Card 3 -->
+                    <div class="model-card fade-in">
+                        <div class="model-img">
+                            <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800&auto=format&fit=crop" alt="Taycan" loading="lazy">
+                        </div>
+                        <div class="model-content">
+                            <h3>Taycan</h3>
+                            <p class="model-specs">From $99,400 | Up to 1,019 hp (Turbo S)</p>
+                            <a href="#contact" class="btn-text">Configure &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Model Card 4 -->
+                    <div class="model-card fade-in">
+                        <div class="model-img">
+                            <img src="https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?q=80&w=800&auto=format&fit=crop" alt="Panamera" loading="lazy">
+                        </div>
+                        <div class="model-content">
+                            <h3>Panamera</h3>
+                            <p class="model-specs">From $102,800 | Luxury Executive Saloon</p>
+                            <a href="#contact" class="btn-text">Configure &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Model Card 5 -->
+                    <div class="model-card fade-in">
+                        <div class="model-img">
+                            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800&auto=format&fit=crop" alt="Macan" loading="lazy">
+                        </div>
+                        <div class="model-content">
+                            <h3>Macan</h3>
+                            <p class="model-specs">From $62,900 | Compact SUV Agility</p>
+                            <a href="#contact" class="btn-text">Configure &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Model Card 6 -->
+                    <div class="model-card fade-in">
+                        <div class="model-img">
+                            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?q=80&w=800&auto=format&fit=crop" alt="Cayenne" loading="lazy">
+                        </div>
+                        <div class="model-content">
+                            <h3>Cayenne</h3>
+                            <p class="model-specs">From $79,200 | Performance SUV Flagship</p>
+                            <a href="#contact" class="btn-text">Configure &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FEATURED 911 EXPERIENCE -->
+        <section class="experience section-padding dark-bg" id="experience">
+            <div class="container">
+                <div class="exp-grid">
+                    <div class="exp-content fade-in">
+                        <span class="section-tag red-tag">THE ICON</span>
+                        <h2>PORSCHE 911 CARRERA S</h2>
+                        <p class="exp-desc">An unmistakable silhouette shaped by decades of motorsport success. The rear-engine layout provides unmatched traction and dynamic weight transfer.</p>
+                        <ul class="exp-features">
+                            <li><span>Engine</span> 3.0-litre twin-turbocharged flat-6</li>
+                            <li><span>Transmission</span> 8-speed Porsche Doppelkupplung (PDK)</li>
+                            <li><span>Chassis</span> Porsche Active Suspension Management (PASM)</li>
+                        </ul>
+                        <a href="#contact" class="btn-primary">Reserve Test Drive</a>
+                    </div>
+                    <div class="exp-image fade-in">
+                        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1000&auto=format&fit=crop" alt="Porsche 911 Rear View" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PERFORMANCE -->
+        <section class="performance section-padding" id="performance">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <span class="section-tag">METRICS</span>
+                    <h2 class="section-title">UNCOMPROMISING PERFORMANCE</h2>
+                    <p class="section-desc">Illustrative engineering figures highlighting peak capabilities.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-box fade-in">
+                        <div class="stat-number" data-target="518">0</div>
+                        <div class="stat-unit">HP</div>
+                        <div class="stat-label">Max Horsepower (GT3 RS)</div>
+                    </div>
+                    <div class="stat-box fade-in">
+                        <div class="stat-number" data-target="3.0" data-decimal="1">0</div>
+                        <div class="stat-unit">SEC</div>
+                        <div class="stat-label">0-60 mph Acceleration</div>
+                    </div>
+                    <div class="stat-box fade-in">
+                        <div class="stat-number" data-target="196">0</div>
+                        <div class="stat-unit">MPH</div>
+                        <div class="stat-label">Top Track Speed</div>
+                    </div>
+                    <div class="stat-box fade-in">
+                        <div class="stat-number" data-target="900" data-plus="true">0</div>
+                        <div class="stat-unit">V</div>
+                        <div class="stat-label">Architecture Voltage (Taycan)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. ELECTRIC FUTURE -->
+        <section class="electric section-padding dark-bg" id="electric">
+            <div class="container">
+                <div class="electric-wrapper fade-in">
+                    <div class="electric-bg" style="background-image: url('https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=1920&auto=format&fit=crop');"></div>
+                    <div class="electric-overlay"></div>
+                    <div class="electric-content">
+                        <span class="section-tag red-tag">SOUL, ELECTRIFIED</span>
+                        <h2>THE TAYCAN TURBO S</h2>
+                        <p>Instant torque. Continuous power delivery. Zero local emissions combined with pure emotional drive. The electric sports car of tomorrow is here today.</p>
+                        <div class="electric-badges">
+                            <div class="badge">
+                                <strong>22.5 min</strong>
+                                <span>Fast Charge (10-80%)</span>
+                            </div>
+                            <div class="badge">
+                                <strong>2.4 sec</strong>
+                                <span>0-60 mph (Launch Control)</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn-primary">Discover Electric</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. GALLERY -->
+        <section class="gallery section-padding" id="gallery">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <span class="section-tag">VISUAL ARCHIVE</span>
+                    <h2 class="section-title">CINEMATIC GALLERY</h2>
+                    <p class="section-desc">Click any image to view in high-resolution detail.</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item fade-in" data-caption="Porsche 911 GT3 on Circuit">
+                        <img src="https://images.unsplash.com/photo-1541348263662-e0626628d0cf?q=80&w=800&auto=format&fit=crop" alt="Porsche 911 GT3" loading="lazy">
+                        <div class="gallery-overlay"><span>View</span></div>
+                    </div>
+                    <div class="gallery-item fade-in" data-caption="Classic Air-Cooled Detail">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=800&auto=format&fit=crop" alt="Classic Porsche" loading="lazy">
+                        <div class="gallery-overlay"><span>View</span></div>
+                    </div>
+                    <div class="gallery-item fade-in" data-caption="Taycan Charging Silhouette">
+                        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800&auto=format&fit=crop" alt="Taycan" loading="lazy">
+                        <div class="gallery-overlay"><span>View</span></div>
+                    </div>
+                    <div class="gallery-item fade-in" data-caption="Modern Headlight LED Array">
+                        <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=800&auto=format&fit=crop" alt="Porsche Headlight" loading="lazy">
+                        <div class="gallery-overlay"><span>View</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <img class="lightbox-img" id="lightboxImg" src="" alt="Enlarged view">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+
+        <!-- 8. TECHNOLOGY & INNOVATION -->
+        <section class="tech section-padding dark-bg" id="technology">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <span class="section-tag red-tag">INNOVATION</span>
+                    <h2 class="section-title">ENGINEERING EXCELLENCE</h2>
+                    <p class="section-desc">Pioneering technologies developed on the race track for the road.</p>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-card fade-in">
+                        <h3>AERODYNAMICS</h3>
+                        <p>Active aerodynamics with adjustable front diffusers and rear wings producing downforce precisely when required.</p>
+                    </div>
+                    <div class="tech-card fade-in">
+                        <h3>PCCB BRAKES</h3>
+                        <p>Porsche Ceramic Composite Brake system offers extreme thermal stability, rapid response, and reduced unsprung weight.</p>
+                    </div>
+                    <div class="tech-card fade-in">
+                        <h3>COCKPIT ERGONOMICS</h3>
+                        <p>Driver-centric layout featuring the iconic centrally mounted analog tachometer flanked by digital precision displays.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. ABOUT PORSCHE -->
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content fade-in">
+                        <span class="section-tag">HERITAGE</span>
+                        <h2 class="section-title">DRIVEN BY PIONEERING SPIRIT</h2>
+                        <p class="about-lead">"In the beginning I looked around and could not find quite the car I dreamed of. So I decided to build it yourself." — Ferry Porsche.</p>
+                        <p class="about-body">Since 1948, Porsche has been synonymous with sports car construction at its finest. Every victory on the legendary endurance tracks of Le Mans and Nürburgring directly benefits our production sports cars.</p>
+                    </div>
+                    <div class="timeline fade-in">
+                        <div class="timeline-item">
+                            <span class="year">1948</span>
+                            <h4>The First 356</h4>
+                            <p>Road certification granted for the 356 'No. 1' Roadster in Gmünd.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">1963</span>
+                            <h4>Birth of the 911</h4>
+                            <p>The Frankfurt Motor Show witnesses the debut of the immortal 911.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">2019</span>
+                            <h4>Electric Era Begins</h4>
+                            <p>World premiere of the all-electric Porsche Taycan sports sedan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. CONTACT & APPLICATION -->
+        <section class="contact section-padding dark-bg" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info fade-in">
+                        <span class="section-tag red-tag">EXPERIENCE PORSCHE</span>
+                        <h2>INQUIRE & APPLY</h2>
+                        <p>Connect with a Porsche specialist to schedule a private consultation, reserve a test drive, or configure your bespoke sports car.</p>
+                        <div class="contact-details">
+                            <p><strong>Showroom Concierge:</strong> +1 (800) PORSCHE</p>
+                            <p><strong>Hours:</strong> Mon – Sat: 9:00 AM – 7:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper fade-in">
+                        <form id="porscheForm" class="porsche-form">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="fullName" required placeholder="Alexander Porsche">
+                                <span class="error-msg">Please enter your full name.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="alexander@porsche.com">
+                                <span class="error-msg">Please enter a valid email address.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+1 (555) 019-4800">
+                                <span class="error-msg">Please enter a valid phone number.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="modelSelect">Preferred Model</label>
+                                <select id="modelSelect" name="modelSelect" required>
+                                    <option value="" disabled selected>Select a model</option>
+                                    <option value="911 Carrera">911 Carrera / GTS</option>
+                                    <option value="911 GT3 RS">911 GT3 / GT3 RS</option>
+                                    <option value="Taycan">Taycan (Electric)</option>
+                                    <option value="Panamera">Panamera</option>
+                                    <option value="Macan">Macan</option>
+                                    <option value="Cayenne">Cayenne</option>
+                                </select>
+                                <span class="error-msg">Please select a model.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message / Special Requests</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Specify trim, custom paint-to-sample wishes, or preferred dealership..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary submit-btn" id="submitBtn">
+                                <span class="btn-text">Submit Inquiry</span>
+                                <span class="spinner" id="spinner"></span>
+                            </button>
+                            <div class="form-feedback" id="formFeedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">PORSCHE</div>
+            <p class="footer-copy">&copy; 2026 Dr. Ing. h.c. F. Porsche AG. Frontend Demonstration Concept. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
